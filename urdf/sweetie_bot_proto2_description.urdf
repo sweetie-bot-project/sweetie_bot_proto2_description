@@ -91,7 +91,7 @@
     <child
       link="bone11" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       lower="-1.5708"
       upper="1.5708"
@@ -323,7 +323,7 @@
     <child
       link="bone15" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       lower="-1.5708"
       upper="1.5708"
@@ -402,7 +402,7 @@
     <child
       link="bone21" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       lower="-1.5708"
       upper="1.5708"
@@ -634,7 +634,7 @@
     <child
       link="bone25" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       lower="-1.5708"
       upper="1.5708"
@@ -713,7 +713,7 @@
     <child
       link="bone31" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       lower="-1.5708"
       upper="1.5708"
@@ -945,7 +945,7 @@
     <child
       link="bone35" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       lower="-1.5708"
       upper="1.5708"
@@ -1024,7 +1024,7 @@
     <child
       link="bone41" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       lower="-1.5708"
       upper="1.5708"
@@ -1256,7 +1256,7 @@
     <child
       link="bone45" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
       lower="-1.5708"
       upper="1.5708"
