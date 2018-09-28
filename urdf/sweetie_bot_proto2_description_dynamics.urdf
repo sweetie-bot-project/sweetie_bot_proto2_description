@@ -95,8 +95,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone12">
@@ -153,8 +153,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone13">
@@ -211,8 +211,8 @@
     <limit
       lower="-1.9"
       upper="1.9"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone14">
@@ -269,8 +269,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone15">
@@ -327,8 +327,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone21">
@@ -385,8 +385,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone22">
@@ -443,8 +443,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone23">
@@ -501,8 +501,8 @@
     <limit
       lower="-1.9"
       upper="1.9"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone24">
@@ -559,8 +559,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone25">
@@ -617,8 +617,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone31">
@@ -675,8 +675,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone32">
@@ -733,8 +733,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone33">
@@ -791,8 +791,8 @@
     <limit
       lower="-1.9"
       upper="1.9"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone34">
@@ -849,8 +849,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone35">
@@ -907,8 +907,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone41">
@@ -965,8 +965,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone42">
@@ -1023,8 +1023,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone43">
@@ -1081,8 +1081,8 @@
     <limit
       lower="-1.9"
       upper="1.9"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone44">
@@ -1139,8 +1139,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone45">
@@ -1197,8 +1197,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone51">
@@ -1255,8 +1255,8 @@
     <limit
       lower="-1.5708"
       upper="0.26"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone52">
@@ -1313,8 +1313,8 @@
     <limit
       lower="-1.5708"
       upper="1.5708"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone53">
@@ -1371,8 +1371,8 @@
     <limit
       lower="-0.55"
       upper="1.0"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="bone54">
@@ -1429,8 +1429,8 @@
     <limit
       lower="-0.4"
       upper="0.4"
-      effort="2.4"
-      velocity="0.25" />
+      effort="0.24"
+      velocity="1.5708" />
   </joint>
   <link
     name="eye_left">
