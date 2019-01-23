@@ -2,20 +2,6 @@
   name="sweetie_bot_proto2_description">
   <link
     name="base_link">
-    <inertial>
-      <origin
-        xyz="-0.0294341131574355 -6.2219515934187E-05 0.0014522694068254"
-        rpy="0 0 0" />
-      <mass
-        value="0.455451435671981" />
-      <inertia
-        ixx="0.000517253974113968"
-        ixy="-1.551351126545E-05"
-        ixz="0.000352694414338008"
-        iyy="0.0019339523473689"
-        iyz="-2.6454157673771E-06"
-        izz="0.00208903459717801" />
-    </inertial>
     <visual>
       <origin
         xyz="0 0 0"
@@ -40,6 +26,28 @@
       </geometry>
     </collision>
   </link>
+  <link
+    name="base_link_inertia">
+    <inertial>
+      <origin
+        xyz="-0.0294341131574355 -6.2219515934187E-05 0.0014522694068254"
+        rpy="0 0 0" />
+      <mass
+        value="0.455451435671981" />
+      <inertia
+        ixx="0.000517253974113968"
+        ixy="-1.551351126545E-05"
+        ixz="0.000352694414338008"
+        iyy="0.0019339523473689"
+        iyz="-2.6454157673771E-06"
+        izz="0.00208903459717801" />
+    </inertial>
+  </link>
+  <joint 
+    name="fictive_base_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="base_link_inertia"/> 
+  </joint>
   <link
     name="bone11">
     <inertial>
