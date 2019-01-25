@@ -360,6 +360,20 @@
       velocity="6.2832" />
   </joint>
   <link
+    name="hoof1">
+  </link>
+  <joint
+    name="joint_hoof1"
+    type="fixed">
+    <origin
+      xyz="0 0 -0.03"
+      rpy="0 0 0" />
+    <parent
+      link="bone15" />
+    <child
+      link="hoof1" />
+  </joint>
+  <link
     name="bone21">
     <inertial>
       <origin
@@ -669,6 +683,20 @@
       upper="1.5708"
       effort="0.24"
       velocity="6.2832" />
+  </joint>
+  <link
+    name="hoof2">
+  </link>
+  <joint
+    name="joint_hoof2"
+    type="fixed">
+    <origin
+      xyz="0 0 -0.03"
+      rpy="0 0 0" />
+    <parent
+      link="bone25" />
+    <child
+      link="hoof2" />
   </joint>
   <link
     name="bone31">
@@ -982,6 +1010,20 @@
       velocity="6.2832" />
   </joint>
   <link
+    name="hoof3">
+  </link>
+  <joint
+    name="joint_hoof3"
+    type="fixed">
+    <origin
+      xyz="0 0 -0.03"
+      rpy="0 0 0" />
+    <parent
+      link="bone35" />
+    <child
+      link="hoof3" />
+  </joint>
+  <link
     name="bone41">
     <inertial>
       <origin
@@ -1291,6 +1333,20 @@
       upper="1.5708"
       effort="0.24"
       velocity="6.2832" />
+  </joint>
+  <link
+    name="hoof4">
+  </link>
+  <joint
+    name="joint_hoof4"
+    type="fixed">
+    <origin
+      xyz="0 0 -0.03"
+      rpy="0 0 0" />
+    <parent
+      link="bone45" />
+    <child
+      link="hoof4" />
   </joint>
   <link
     name="bone51">
