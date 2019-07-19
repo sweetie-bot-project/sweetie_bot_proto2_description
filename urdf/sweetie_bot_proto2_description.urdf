@@ -142,7 +142,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone13"/>
     <child link="bone14"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="0.24" lower="-1.7" upper="1.7" velocity="1.5708"/>
   </joint>
   <link name="bone15">
     <inertial>
@@ -301,7 +301,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone23"/>
     <child link="bone24"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="0.24" lower="-1.7" upper="1.7" velocity="1.5708"/>
   </joint>
   <link name="bone25">
     <inertial>
@@ -460,7 +460,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone33"/>
     <child link="bone34"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="0.24" lower="-1.7" upper="1.7" velocity="1.5708"/>
   </joint>
   <link name="bone35">
     <inertial>
@@ -619,7 +619,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone43"/>
     <child link="bone44"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="0.24" lower="-1.7" upper="1.7" velocity="1.5708"/>
   </joint>
   <link name="bone45">
     <inertial>
