@@ -866,40 +866,6 @@
     <parent link="bone54"/>
     <child link="eye_right"/>
   </joint>
-  <link name="link_eyes_x"/>
-  <joint name="joint_eyes_focus_x" type="prismatic">
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-    <axis xyz="1.0 0.0 0.0"/>
-    <parent link="bone54"/>
-    <child link="link_eyes_x"/>
-    <limit effort="0.24" lower="-0.5" upper="0.5" velocity="1.5708"/>
-  </joint>
-  <link name="link_eyes_y"/>
-  <joint name="joint_eyes_focus_y" type="prismatic">
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-    <axis xyz="0.0 1.0 0.0"/>
-    <parent link="link_eyes_x"/>
-    <child link="link_eyes_y"/>
-    <limit effort="0.24" lower="-0.5" upper="0.5" velocity="1.5708"/>
-  </joint>
-  <link name="link_eyes_z">
-    <visual>
-      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-      <geometry>
-        <mesh filename="package://sweetie_bot_proto2_description/meshes/sphere.STL"/>
-      </geometry>
-      <material name="">
-        <color rgba="0.75294 0.75294 0.75294 1.0"/>
-      </material>
-    </visual>
-  </link>
-  <joint name="joint_eyes_focus_z" type="prismatic">
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-    <axis xyz="0.0 0.0 1.0"/>
-    <parent link="link_eyes_y"/>
-    <child link="link_eyes_z"/>
-    <limit effort="0.24" lower="-0.5" upper="0.5" velocity="1.5708"/>
-  </joint>
   <link name="eyes_link_pitch"/>
   <joint name="eyes_pitch" type="revolute">
     <origin xyz="0.0 0.0 0.0" rpy="-1.3878e-14 -6.9398e-15 -7.6286e-17"/>
