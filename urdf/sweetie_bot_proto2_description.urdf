@@ -55,7 +55,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="base_link"/>
     <child link="bone11"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone12">
     <inertial>
@@ -84,7 +84,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone11"/>
     <child link="bone12"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone13">
     <inertial>
@@ -113,7 +113,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone12"/>
     <child link="bone13"/>
-    <limit effort="0.24" lower="-1.9" upper="1.9" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.9" upper="1.9" velocity="1.5708"/>
   </joint>
   <link name="bone14">
     <inertial>
@@ -142,7 +142,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone13"/>
     <child link="bone14"/>
-    <limit effort="0.24" lower="-1.7" upper="1.7" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.7" upper="1.7" velocity="1.5708"/>
   </joint>
   <link name="bone15">
     <inertial>
@@ -171,7 +171,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="bone14"/>
     <child link="bone15"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone16"/>
   <joint name="joint16" type="revolute">
@@ -179,7 +179,7 @@
     <axis xyz="0.0 0.0 1.0"/>
     <parent link="bone15"/>
     <child link="bone16"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
   <link name="hoof1"/>
   <joint name="joint_hoof1" type="fixed">
@@ -214,7 +214,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="base_link"/>
     <child link="bone21"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone22">
     <inertial>
@@ -243,7 +243,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone21"/>
     <child link="bone22"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone23">
     <inertial>
@@ -272,7 +272,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone22"/>
     <child link="bone23"/>
-    <limit effort="0.24" lower="-1.9" upper="1.9" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.9" upper="1.9" velocity="1.5708"/>
   </joint>
   <link name="bone24">
     <inertial>
@@ -301,7 +301,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone23"/>
     <child link="bone24"/>
-    <limit effort="0.24" lower="-1.7" upper="1.7" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.7" upper="1.7" velocity="1.5708"/>
   </joint>
   <link name="bone25">
     <inertial>
@@ -330,7 +330,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="bone24"/>
     <child link="bone25"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone26"/>
   <joint name="joint26" type="revolute">
@@ -338,7 +338,7 @@
     <axis xyz="0.0 0.0 1.0"/>
     <parent link="bone25"/>
     <child link="bone26"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
   <link name="hoof2"/>
   <joint name="joint_hoof2" type="fixed">
@@ -373,7 +373,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="base_link"/>
     <child link="bone31"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone32">
     <inertial>
@@ -402,7 +402,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone31"/>
     <child link="bone32"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone33">
     <inertial>
@@ -431,7 +431,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone32"/>
     <child link="bone33"/>
-    <limit effort="0.24" lower="-1.9" upper="1.9" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.9" upper="1.9" velocity="1.5708"/>
   </joint>
   <link name="bone34">
     <inertial>
@@ -460,7 +460,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone33"/>
     <child link="bone34"/>
-    <limit effort="0.24" lower="-1.7" upper="1.7" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.7" upper="1.7" velocity="1.5708"/>
   </joint>
   <link name="bone35">
     <inertial>
@@ -489,7 +489,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="bone34"/>
     <child link="bone35"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone36"/>
   <joint name="joint36" type="revolute">
@@ -497,7 +497,7 @@
     <axis xyz="0.0 0.0 1.0"/>
     <parent link="bone35"/>
     <child link="bone36"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
   <link name="hoof3"/>
   <joint name="joint_hoof3" type="fixed">
@@ -532,7 +532,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="base_link"/>
     <child link="bone41"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone42">
     <inertial>
@@ -561,7 +561,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone41"/>
     <child link="bone42"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone43">
     <inertial>
@@ -590,7 +590,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone42"/>
     <child link="bone43"/>
-    <limit effort="0.24" lower="-1.9" upper="1.9" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.9" upper="1.9" velocity="1.5708"/>
   </joint>
   <link name="bone44">
     <inertial>
@@ -619,7 +619,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone43"/>
     <child link="bone44"/>
-    <limit effort="0.24" lower="-1.7" upper="1.7" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.7" upper="1.7" velocity="1.5708"/>
   </joint>
   <link name="bone45">
     <inertial>
@@ -648,7 +648,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="bone44"/>
     <child link="bone45"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone46"/>
   <joint name="joint46" type="revolute">
@@ -656,7 +656,7 @@
     <axis xyz="0.0 0.0 1.0"/>
     <parent link="bone45"/>
     <child link="bone46"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
   <link name="hoof4"/>
   <joint name="joint_hoof4" type="fixed">
@@ -691,7 +691,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="base_link"/>
     <child link="bone51"/>
-    <limit effort="0.24" lower="-1.5708" upper="0.26" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="0.26" velocity="1.5708"/>
   </joint>
   <link name="bone52">
     <inertial>
@@ -720,7 +720,7 @@
     <axis xyz="0.0 0.0 1.0"/>
     <parent link="bone51"/>
     <child link="bone52"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone53">
     <inertial>
@@ -749,7 +749,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone52"/>
     <child link="bone53"/>
-    <limit effort="0.24" lower="-0.55" upper="1.0" velocity="1.5708"/>
+    <limit effort="2.4" lower="-0.55" upper="1.0" velocity="1.5708"/>
   </joint>
   <link name="bone54">
     <inertial>
@@ -778,7 +778,7 @@
     <axis xyz="1.0 0.0 0.0"/>
     <parent link="bone53"/>
     <child link="bone54"/>
-    <limit effort="0.24" lower="-0.4" upper="0.4" velocity="1.5708"/>
+    <limit effort="2.4" lower="-0.4" upper="0.4" velocity="1.5708"/>
   </joint>
   <link name="bone55"/>
   <joint name="joint55" type="revolute">
@@ -786,7 +786,7 @@
     <axis xyz="0.0 0.0 1.0"/>
     <parent link="bone54"/>
     <child link="bone55"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
   <link name="bone56"/>
   <joint name="joint56" type="revolute">
@@ -794,7 +794,7 @@
     <axis xyz="0.0 1.0 0.0"/>
     <parent link="bone55"/>
     <child link="bone56"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
   <link name="screen_left">
     <inertial>
@@ -872,7 +872,7 @@
     <axis xyz="0.0 -1.0 0.0"/>
     <parent link="bone54"/>
     <child link="eyes_link_pitch"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
   <link name="eyes_link_yaw">
     <visual>
@@ -890,6 +890,6 @@
     <axis xyz="0.0 0.0 -1.0"/>
     <parent link="eyes_link_pitch"/>
     <child link="eyes_link_yaw"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
 </robot>

@@ -49,7 +49,7 @@
     <axis xyz="-1.0 0.0 0.0"/>
     <parent link="base_link"/>
     <child link="bone11"/>
-    <limit effort="0.24" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
+    <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="1.5708"/>
   </joint>
   <link name="bone12">
     <inertial>
