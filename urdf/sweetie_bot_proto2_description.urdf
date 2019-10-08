@@ -866,15 +866,15 @@
     <parent link="bone54"/>
     <child link="eye_right"/>
   </joint>
-  <link name="eyes_link_pitch"/>
-  <joint name="eyes_pitch" type="revolute">
-    <origin xyz="0.0 0.0 0.0" rpy="-1.3878e-14 -6.9398e-15 -7.6286e-17"/>
-    <axis xyz="0.0 -1.0 0.0"/>
+  <link name="eyes_link_yaw"/>
+  <joint name="eyes_yaw" type="revolute">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <axis xyz="0.0 0.0 -1.0"/>
     <parent link="bone54"/>
-    <child link="eyes_link_pitch"/>
+    <child link="eyes_link_yaw"/>
     <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
-  <link name="eyes_link_yaw">
+  <link name="eyes_link_pitch">
     <visual>
       <origin xyz="0.3 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
@@ -885,11 +885,11 @@
       </material>
     </visual>
   </link>
-  <joint name="eyes_yaw" type="revolute">
+  <joint name="eyes_pitch" type="revolute">
     <origin xyz="0.0 0.0 0.0" rpy="-1.3878e-14 -6.9398e-15 -7.6286e-17"/>
-    <axis xyz="0.0 0.0 -1.0"/>
-    <parent link="eyes_link_pitch"/>
-    <child link="eyes_link_yaw"/>
+    <axis xyz="0.0 -1.0 0.0"/>
+    <parent link="eyes_link_yaw"/>
+    <child link="eyes_link_pitch"/>
     <limit effort="2.4" lower="-1.5708" upper="1.5708" velocity="6.2832"/>
   </joint>
 </robot>
