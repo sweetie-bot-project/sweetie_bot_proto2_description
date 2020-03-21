@@ -11,7 +11,7 @@ for Sweetie Bot Proto2 robot</p>
   <license>BSD</license>
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roslaunch</build_depend>
-  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>robot_state_publisher_gui</run_depend>
   <run_depend>joint_state_publisher</run_depend>
   <export>
     <architecture_independent />
